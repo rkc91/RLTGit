@@ -40,8 +40,8 @@ def main():
             player_x += dx
             player_y += dy
 
-        #if exit:
-            #return True
+        if exit:
+            return True
 
         if fullscreen:
             libtcod.console_set_fullscreen(not libtcod.console_is_fullscreen())
